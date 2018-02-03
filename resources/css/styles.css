@@ -1,0 +1,75 @@
+
+body {
+	font-family: Raleway, sans-serif;
+	color: rgba(0, 0, 0, .7);
+	background: linear-gradient(to right, #ff0000, #ffff00);
+	text-shadow: .5px .5px .2px rgba(0, 0, 0, .3);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+	width: 100%;
+	/*text-shadow: .5px .5px .5px rgba(0, 0, 0, .4);*/
+}
+
+.random-btn {
+	font-size: 1.2em;
+	padding: .4em .75em;
+	background-color: rgba(0, 0, 0, .4);
+	color: #fff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	border: 3px solid #fff;
+	outline: none;
+	transition: all .3s ease-out;
+}
+
+.random-btn:hover {
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.random-btn:active, visited {
+	transform: scale(.9);
+	border-color: #fff;
+}
+
+.color1, .color2 {
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	transition: all .3s ease-out;
+}
+
+.color1 {
+	margin-right: 10px;
+}
+
+.color2 {
+	margin-left;
+}
+
+.color1:hover,
+.color2:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.color1:active, visited,
+.color2:active, visited {
+	transform: scale(.9);
+}
+
+.color-text-display {
+	text-transform: none;
+	letter-spacing: .1em;
+	font-weight: 900;
+}
+
