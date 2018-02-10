@@ -1,7 +1,6 @@
 
 html,
 body {
-    height: 100%;
     width: 100%;
 }
 
@@ -80,10 +79,8 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-	html, body {border: 1px solid #fff;}
 	h1 {font-weight: 400; font-size: 1.8rem; margin-top: 30px; margin-bottom: 50px;}
 	h2 {font-weight: 300; font-size: 1.2rem;}
 	.random-btn {margin-bottom: 60px;}
-	.color-text-display {margin-bottom: 15px;}
 }
 
