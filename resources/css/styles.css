@@ -80,9 +80,9 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-	body {padding-bottom: 15px;}
 	h1 {font-weight: 400; font-size: 2rem; margin-top: 30px; margin-bottom: 50px;}
 	h2 {font-weight: 300; font-size: 1.2rem;}
-	.random-btn {margin-bottom: 100px;}
+	.random-btn {margin-bottom: 60px;}
+	.color-text-display {margin-bottom: 15px;}
 }
 
