@@ -1,3 +1,4 @@
+
 var css    = document.querySelector(".color-text-display"),
     body   = document.querySelector("#gradient"),
     color1 = document.querySelector(".color1"),

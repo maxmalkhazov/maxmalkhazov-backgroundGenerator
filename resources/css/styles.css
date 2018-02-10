@@ -1,4 +1,10 @@
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
 	font-family: Raleway, sans-serif;
 	color: rgba(0, 0, 0, .7);
@@ -71,5 +77,11 @@ h1 {
 	text-transform: none;
 	letter-spacing: .1em;
 	font-weight: 900;
+}
+
+@media only screen and (max-width: 767px) {
+	h1 {font-weight: 400; font-size: 2rem; padding-top: 30px; margin-bottom: 50px;}
+	h2 {font-weight: 300; font-size: 1.2rem;}
+	.random-btn {margin-bottom: 200px;}
 }
 
